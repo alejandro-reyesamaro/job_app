@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Alejandro} % Your first name
+\familyname{ Reyes Amaro} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Lettre de motivation}
+\address{3 rue Docteur Zamenhof}{44200, Nantes, France}
+\mobile{06 66 37 25 24}
+%\phone{(+537) 203 5056}
+%\fax{(000) 111 1113}
+\email{alejandro.reyes@univ-nantes.fr}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{Laboratory of Computer Science (LINA)}{University of Nantes\\ France} % Letter recipient
+\date{\today} % Letter date
+\opening{M. Selem CHARFI,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{} and Master grades} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+Le escribo a proposito de la oferta de empleo que me hizo llegar mi antiguo tutor de tesis de doctorado, en el cual se oferta un puesto .... 
+En estos momentos ocupo el puesto de ATER en el departamento de informática de la universidad de Nantes, donde formo parte tambien del grupo de investigación TASC. Mi director de tesis fue Eric Monfroy, director del departamento del informática de la universidad de Nantes.
+
+Soy un apasionado de la programación en general. Siempre me he interesado por el desarrollo de aplicaciones aplicables, particularmente las que pueden ser implementadas también en ambientes en paralelo y con el fin de resolver problemas reales. En el CV que adjunto, puede verse que no solo tengo experiencia como profesor en diferentes tópicos (incluyendo programación en diferentes lenguajes, C\#, MATLAB, Javascript, etc.., e introducción al MPI), sino que también tengo experiencia como desarrollador de software mayormente en C\#, en la creación y/o mantenimiento de diferentes aplicaciones y sitios web. 
+
+Desde hace tiempo, he esperado la oportunidad de aplicar todos mis conocimientos y mi experiencia en un puesto donde al mismo tiempo pueda seguirme desarrollando profesionalmente. Pienso que mi experiencia como desarrollador en varias empresas, unida a varios años de trabajo en equipos de investigación en universidades diferentes, pueden influir positivamente en su empresa. I am a very responsible and hard-worker person, with powerful skills, able to learn, to program, and generate solutions fast and effectively.
+
+I have enclosed my CV, incluyendo mis publications mas importantes. Thank you for your consideration. I look forward hearing from you soon.
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
