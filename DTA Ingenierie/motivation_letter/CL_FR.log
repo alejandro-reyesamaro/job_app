@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  17 APR 2017 16:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  17 APR 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cover_letter.tex
-(./cover_letter.tex
+**CL_FR.tex
+(./CL_FR.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 37 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
@@ -769,9 +769,8 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-)
-(./cover_letter.aux)
-\openout1 = `cover_letter.aux'.
+) (./CL_FR.aux)
+\openout1 = `CL_FR.aux'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
@@ -853,7 +852,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 162.
+LaTeX Info: Redefining \microtypecontext on input line 167.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -871,7 +870,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 <logo.jpg, id=1, 287.0725pt x 192.72pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
-Package pdftex.def Info: logo.jpg used on input line 178.
+Package pdftex.def Info: logo.jpg used on input line 183.
 (pdftex.def)             Requested size: 57.81621pt x 38.81384pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
@@ -883,20 +882,23 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/m/it' undefined
-(Font)              using `U/wasy/m/n' instead on input line 178.
+(Font)              using `U/wasy/m/n' instead on input line 183.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 
  []
 
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
 <pictures/sign.jpg, id=2, 2119.92pt x 1386.17876pt>
 File: pictures/sign.jpg Graphic file (type jpg)
  <use pictures/sign.jpg>
-Package pdftex.def Info: pictures/sign.jpg used on input line 202.
+Package pdftex.def Info: pictures/sign.jpg used on input line 207.
 (pdftex.def)             Requested size: 83.165pt x 54.40002pt.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -947,34 +949,39 @@ File: utxsyb.fd 2000/12/14 v1.0
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyc.fd
 File: upxsyc.fd 2000/12/14 v1.0
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg> <./pictures/si
 gn.jpg>]
-(./cover_letter.aux)
+(./CL_FR.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6107 strings out of 494272
- 89287 string characters out of 6160999
- 157793 words of memory out of 5000000
- 9175 multiletter control sequences out of 15000+600000
- 46960 words of font info for 76 fonts, out of 8000000 for 9000
+ 6143 strings out of 494272
+ 89792 string characters out of 6160999
+ 157876 words of memory out of 5000000
+ 9205 multiletter control sequences out of 15000+600000
+ 51344 words of font info for 79 fonts, out of 8000000 for 9000
  443 hyphenation exceptions out of 8191
- 38i,6n,35p,824b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} </home/reyesamaro-a/.texmf-va
-r/fonts/pk/ljfour/public/ifsym/ifsymi10.540pk></usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/wasy/wasy9.pfb>
-Output written on cover_letter.pdf (1 page, 353397 bytes).
+ 38i,6n,35p,817b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/lm/lm-ec.enc} </home/reyesamaro-a/.texmf-var/fonts/pk/ljfour/pu
+blic/ifsym/ifsymi10.540pk></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/marvosym/marvosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy
+/wasy9.pfb>
+Output written on CL_FR.pdf (1 page, 366273 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 14347 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 16907 words of extra memory for PDF output out of 17280 (max. 10000000)
 

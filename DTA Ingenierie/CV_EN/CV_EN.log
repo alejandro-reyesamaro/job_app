@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  16 APR 2017 21:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  17 APR 2017 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,21 +563,21 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (./CV_EN.aux)
 \openout1 = `CV_EN.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 89.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -645,7 +645,7 @@ e
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -655,164 +655,159 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
 
 (./CV_EN.out) (./CV_EN.out)
 \@outlinefile=\write4
 \openout4 = `CV_EN.out'.
 
-Package hyperref Info: Option `breaklinks' set `true' on input line 88.
+Package hyperref Info: Option `breaklinks' set `true' on input line 89.
 
 
 Package hyperref Warning: Option `baseurl' has already been used,
-(hyperref)                setting the option has no effect on input line 88.
+(hyperref)                setting the option has no effect on input line 89.
 
 
 Package hyperref Warning: Option `pdfpagemode' has already been used,
-(hyperref)                setting the option has no effect on input line 88.
+(hyperref)                setting the option has no effect on input line 89.
 
 
 Package hyperref Warning: Option `pdfstartpage' has already been used,
-(hyperref)                setting the option has no effect on input line 88.
+(hyperref)                setting the option has no effect on input line 89.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 88.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 88.
-
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 89.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 88.
+(hyperref)                removing `\\' on input line 89.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 88.
+(hyperref)                removing `\\' on input line 89.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 89.
 
 <moi.jpg, id=32, 1082.0425pt x 1082.0425pt>
 File: moi.jpg Graphic file (type jpg)
  <use moi.jpg>
-Package pdftex.def Info: moi.jpg used on input line 89.
+Package pdftex.def Info: moi.jpg used on input line 90.
 (pdftex.def)             Requested size: 64.0pt x 63.99515pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 89--89
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 90--90
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 94.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 93.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 94.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 93.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 94.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 93.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 94.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 93.
+(Font)              <10.95> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 93.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 93.
+(Font)              <6> on input line 94.
 
-Underfull \hbox (badness 7796) in paragraph at lines 97--97
-[]\T1/lmss/bx/n/10.95 Attaché Tem-po-raire d'Enseignement et de Recherche\T1/lm
-ss/m/n/10.95 , \T1/lmss/m/sl/10.95 Dé-parte-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 109.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--161
+Underfull \hbox (badness 1184) in paragraph at lines 118--118
+[]\T1/lmss/m/n/10 Member of a re-search team car-rier of divers MAEC-AECID proj
+ects (A/023109/09,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--162
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 195.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 195.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 195.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--206
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./moi.jpg>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 194.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 194.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 194.
-
-Underfull \hbox (badness 1552) in paragraph at lines 204--204
-[]$[]$\T1/lmss/m/n/10 : Méth-odes primal--dual in-fais-able, point in-térieur, 
-pro-gram-ma-tion linéaire,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--205
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 234
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 235
 .
-LaTeX Font Info:    No file OMSlmss.fd. on input line 234.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 235.
+
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 234.
+(Font)              for symbol `textbullet' on input line 235.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 238.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 239.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 239--244
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./CV_EN.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `CV_EN.out' has not changed.
-(rerunfilecheck)             Checksum: ADF232A9D6BC27AFA688210C4203ABF0;354.
+(rerunfilecheck)             Checksum: 4832C46B323B9306494972AFEEE7D119;327.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 15081 strings out of 494272
- 262415 string characters out of 6160999
- 343596 words of memory out of 5000000
- 18032 multiletter control sequences out of 15000+600000
+ 15082 strings out of 494272
+ 262418 string characters out of 6160999
+ 343593 words of memory out of 5000000
+ 18033 multiletter control sequences out of 15000+600000
  69865 words of font info for 53 fonts, out of 8000000 for 9000
  443 hyphenation exceptions out of 8191
  56i,17n,55p,771b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -825,7 +820,7 @@ fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso9.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV_EN.pdf (2 pages, 351770 bytes).
+Output written on CV_EN.pdf (2 pages, 350070 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream

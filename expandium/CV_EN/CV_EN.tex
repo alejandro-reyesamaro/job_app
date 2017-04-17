@@ -31,17 +31,17 @@
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-\newcommand{\mc}{Mots clés}
-\newcommand{\gt}{Sujets}
-\newcommand{\rt}{Sujet de recherche}
-\newcommand{\uh}{Universit\'{e} de la Havane}
-\newcommand{\uib}{Université des Iles Baléares}
-\newcommand{\un}{Universit\'e de Nantes}
-\newcommand{\lina}{Laboratoire d'Informatique de Nantes Atlantique (LINA)}
-\newcommand{\lsn}{Laboratoire des Sciences du Num\'erique de Nantes (LS2N)}
-\newcommand{\facHab}{Faculté de Mathématiques et d'Informatique. \uh, Cuba}
-\newcommand{\depthHab}{Département de Mathématiques Appliquées, \facHab}
-\newcommand{\depthNantes}{Département d'Informatique}
+\newcommand{\mc}{Keywords}
+\newcommand{\gt}{Subjects}
+\newcommand{\rt}{Research subject}
+\newcommand{\uh}{University of Havana}
+\newcommand{\uib}{University of Balearic Islands}
+\newcommand{\un}{University of Nantes}
+\newcommand{\lina}{Laboratory of Informatics of Nantes Atlantique (LINA)}
+\newcommand{\lsn}{Laboratory of Numeric Sciences of Nantes (LS2N)}
+\newcommand{\facHab}{Faculty of Mathematics and Computer Sciences. \uh, Cuba}
+\newcommand{\depthHab}{Department of Applied Mathematics, \facHab}
+\newcommand{\depthNantes}{Department of Informatics}
 \newcommand{\facNantes}{UFR Sciences et techniques, \un, France}
 %\renewcommand{\thebibliography}{Publicaciones}
 \makeatother
@@ -64,7 +64,6 @@
 \definecolor{intenso}{RGB}{126,13,13}
 \definecolor{shadecolor}{RGB}{215,215,215}
 
-\newcommand{\closecode}{\textcolor{blue}{(code pas ouvert)}}
 \newcommand{\gitsite}[1]{\textcolor{blue}{\href{url}{#1}}}
 
 \addtolength{\textheight}{1in}
@@ -82,6 +81,8 @@
 %\newcommand{\tabsubitem}{~~~~\llap{\tikz\draw[black,fill=red] (0,0) circle (.4ex);}~~}
 \newcommand{\tabsubitem}{~~~~~\llap{\tikz\draw[black] (0,0) circle (.4ex);}~~}
 
+\newcommand{\loc}{lines of code in~}
+\newcommand{\closecode}{\textcolor{blue}{(not open code)}}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -90,31 +91,31 @@
 
 %attaché temporaire d'enseignement et de recherche
 
-\section{Statut actuel}
+\section{Current position}
 \cventry
-	{2016 - jusqu'à présent}
-	{Attaché Temporaire d'Enseignement et de Recherche}{\depthNantes, \lsn}{}	
-	{}{\un} %{Nantes, France.}	
+	{2016 - up to now}
+	{Temporary Adjunct Professor--Researcher}{\depthNantes, \lsn}{}	
+	{}{\un} %{Nantes, France.}
 	
-\section{Expérience}
+\section{Experience}
 
 %\subsection{Développement de logiciels}
 \cventry
 	{2013 - 2016}
-	{Doctorant} %POSL: Un langage orienté parallèle pour construire des solveurs basés sur méta-heuristiques}
+	{PhD Student} %POSL: Un langage orienté parallèle pour construire des solveurs basés sur méta-heuristiques}
 	{LN2N (Inria)}
 	{}{}
-	{Porteur d'un projet de recherche de trois ans, avec l'encadrement de deux étudiants de master. Création de \textit{POSL}, un langage de haut niveau orienté parallèle qui permet de construire des solveurs basés sur méta-heuristiques, pour résoudre des problèmes combinatoires.\\
+	{Carrier of a three years research project, with the supervision of two master students. Creation of \textit{POSL}, a parallel oriented high level language allowing to build meta-heuristic-based solvers, to solve combinatorial optimization problems.\\
 	\gitsite{https://github.com/alejandro-reyesamaro/POSL}\\
-	28 583 lignes de code en C++.}
+	28 583 \loc C++.}
 \cventry
 	{2010 - 2013}
-	{Instructeur - chercheur} %{Jeux sérieux pour la rééducation physique}
+	{Researcher - Instructor} %{Jeux sérieux pour la rééducation physique}
 	{\uh{} - \uib}
 	{}{}
-	{Membre d'un équipe de recherche porteur de plusieurs projet MAEC-AECID (A/023109/09, A/030033/10 et A2/037538/11) pour proposer des jeux sérieux par ordinateur capables de capter les mouvements des patients avec des handicaps physiques et évaluer l'avancement de la rééducation physique.\\
+	{Member of a research team carrier of divers MAEC-AECID projects (A/023109/09, A/030033/10 et A2/037538/11) to construct serious games able to capture movements of patients with physical disabilities, to evaluate the progression of physical rehabilitation.\\
 	\gitsite{https://github.com/alejandro-reyesamaro/iKinematic\_arm}\\
-	38 768 lignes de code en C\# et 4 062 lignes de code en MATLAB}
+	38 768 \loc C\# and 4 062 \loc MATLAB}
 \cventry
 	{2006 - 2011}
 	{Freelance} %{Système de gestion de réserves online}
@@ -122,17 +123,17 @@
 	{}{}%{[C$\sharp$, LinQ, WCF, Microsoft SQL Server]}
 	{
 		\begin{itemize}
-		\item Mise à jour du \textit{data layer} et du \textit{data access layer} du système de gestion de réserves en ligne du site web de l'agence de voyages \textit{Umbrella Travel} (\gitsite{https://www.umbrellatravel.com/}).
+		\item Update of the data and data access layer of the on-line booking system of \textit{Umbrella Travel} web site.  (\gitsite{https://www.umbrellatravel.com/}).
 		\item[] \closecode
-		\item[] 2 343 lignes de code en C\# (LinQ, ASP.NET)
-		\item Chef d'équipe de \textit{freelances} pour la création de :
+		\item[] 2 343 \loc C\# (LinQ, ASP.NET)
+		\item Leader of a \textit{freelances} team for the creation of:
 			\begin{itemize}		
-			\item \textit{Neurohipot} : un système qui permet d'évaluer la capacité d'attention et la mémoire à court terme des personnes âgées, pour aider au diagnostic de la démence sénile pour l'Hôpital Universitaire Gregorio Mara\~n\'on, Espagne.
+			\item \textit{Neurohipot} : A system to evaluate attention and short-term memory skills of in the elderly, to face the senile dementia diagnostic, for the university-hospital Gregorio Mara\~n\'on, Spain.
 			\item[] \gitsite{https://github.com/alejandro-reyesamaro/Neurohipot}
-			\item[] 29 421 lignes de code en C\# (Microsoft Access Data Base)
-			\item Magasine virtuel (en ligne) pour l'achat des produits cubains depuis l'étranger, avec distribution à Cuba.
+			\item[] 29 421 \loc C\# (Microsoft Access Data Base)
+			\item On-line store for buying Cuban products from abroad and distribute them in Cuba.
 			\item[] \gitsite{http://git@github.com:alejandro-reyesamaro/vSotre\_cuba.git}
-			\item[] 47 330 lignes de code en C\# (SQL Server, ASP.NET)
+			\item[] 47 330 \loc C\# (SQL Server, ASP.NET)
 			\end{itemize}	
 		\end{itemize}
 	}
@@ -142,14 +143,14 @@
 	{Software \& Consulting Group}
 	{}{} %[C$\sharp$, Web Development, Microsoft SQL Server]}
 	{
-		Membre d'une équipe de développeurs chargés de la création de :
+		Member of a developers team to create:
 		\begin{itemize}
-		\item Un site web pour l'évaluation des niveaux de responsabilité sociale des petites entreprises à Costa Rica (dessin web compris).
+		\item A web site for the evaluation of social responsibility levels of small enterprises in Costa Rica (wed design included).
 		\item[] \closecode
-		\item[] 89 193 lignes de code en C\# (SQL Server, ASP.NET)
-		\item Un \textit{plugin} (pour le \textit{back--end} du système principal) pour la gestion des services internes de l'entreprise.
+		\item[] 89 193 \loc C\# (SQL Server, ASP.NET)
+		\item A plugin for the \textit{back--end} of the internal services management system of the enterprise (\textit{CSG}).
 		\item[] \closecode
-		\item[] 5 165 lignes de code C\# (Microsoft Access Data Base)
+		\item[] 5 165 loc C\# (Microsoft Access Data Base)
 		\end{itemize}
 	}
 %\cventry
@@ -186,73 +187,73 @@
 %	{\uh}
 %	{}{}{\underline{\rt}: Programmation non--linéaire, approximation des fonctions, équations différentielles \& algèbre linéaire numérique.}
 
-\section{Études}
+\section{Education}
 \cventry
 	{2013 - 2016}
-	{Docteur en Informatique}
+	{PhD in Computer Sciences}
 	{\facNantes}{}{}
-	{\underline{\mc}: Problèmes de satisfaction de contraintes, méta-heuristiques, parallélisme, stratégies de communication}
+	{\underline{\mc}: Constraint satisfaction problems, meta-heuristics, parallelism, communication strategies.}
 \cventry
 	{2007 - 2011}
-	{Master en Sciences Mathématiques. Analyse Numérique}
+	{Master's degree in Mathematical Sciences. Numerical Analysis}
 	{\facHab}{}{}
-	{\underline{\mc}: Cinématique inverse, recherche de chemin, détection de collision, filtre de \mbox{particules}}
+	{\underline{\mc}: Inverse kinematics, path finding, collision detection, \mbox{particles} filtering}.
 \cventry
 	{2001 - 2006}
-	{Licence en Informatique}
+	{Bachelor of Computer Science}
 	{\facHab}{}{}
-	{\underline{\mc}: Méthodes primal--dual infaisable, point intérieur, programmation linéaire, \mbox{problèmes} à grande échelle}
-			
-\section{Compétences informatiques}
-\subsection{Langages de programmation}
+	{\underline{\mc}: Unfeasible primal--dual interior point method, linear programming, large scale problems.}
+				
+\section{Computer skills}
+\subsection{Programming languages}
 \cvmyentry
 {}
 {C\#, C/C++, Java/Javascript, MATLAB, R}{}{}{}{}
-\subsection{Web et basses de données}
+\subsection{Web and data basses}
 \cvmyentry
 {}
 {ASP.NET, HTML/CSS, SQL Server, Microsoft Access Database, LinQ, WCF}{}{}{}{}
-\subsection{Systèmes de contrôle de version}
+\subsection{Version control systems}
 \cvmyentry
 {}
-{Utilisateur intermédiaire de Git}{}{}{}{}
-\subsection{Autres compétences informatiques et mathématiques}
+{Intermediate user of Git}{}{}{}{}
+\subsection{Other computer and et mathematics skills}
 \cvmyentry
 {}
 {\begin{tabular}{ll}
-\tabitem Système d'exploitation : & \tabitem Virtualisation :\\
+\tabitem Operating systems: & \tabitem Visualization :\\
 \tabsubitem Linux & \tabsubitem VirtualBox\\
 \tabsubitem Windows & \tabsubitem VMwarre \\
-\tabitem Technologie multi-c\oe{}ur \hspace{50pt} & \tabitem architectures massivement parallèles\\
-\tabitem optimisation combinatoire & \tabitem programmation par contraintes\\ 
-\tabitem recherche locale & \tabitem vision par ordinateur \\ 
-\tabitem approximation des fonctions & \tabitem caméras Kinet \\ 
-\tabitem programmation non--linéaire & \tabitem algèbre linéaire numérique\\ 
+\tabitem Multi-core Technologies:  \hspace{50pt} & \tabitem Massively parallel architectures\\
+\tabitem Combinatorial optimization & \tabitem Constraint programming\\ 
+\tabitem Local search & \tabitem computer vision\\ 
+\tabitem Function approximation & \tabitem Kinet cams\\ 
+\tabitem Non--linear programming & \tabitem Linear numerical algebra\\ 
 %\tabitem  & \tabitem équations différentielles
 \end{tabular}
 }
 {}{}{}{}
 
-\section{Langues \small{(Common European Framework of Reference (CEF))}}
-\cvlanguage{$\star\star\star\star\star$}{Espagnol}
-{Langue maternelle}
-\cvlanguage{$\star\star\star\star$}{Anglais}
-{Écoute: C1, Lecture: C1, Oral: C1, Écriture: C1}
-\cvlanguage{$\star\star\star\star$}{Français}
-{Écoute: C1, Lecture: C1, Oral: C1, Écriture: C1}
+\section{Languages \small{(Common European Framework of Reference (CEF))}}
+\cvlanguage{$\star\star\star\star\star$}{Spanish}
+{Native}
+\cvlanguage{$\star\star\star\star$}{English}
+{Listening: C1, Reading: C1, Speaking: C1, Writing: C1}
+\cvlanguage{$\star\star\star\star$}{French}
+{Listening: C1, Reading: C1, Speaking: C1, Writing: C1}
 
-\section{Centres d'intérêt}
+\section{Hobbies}
 \cvmyentry
 {}
 {\begin{tabular}{ll}
-\tabitem Musique : & \tabsubitem \gitsite{https://youtu.be/KTkxVKzovOE}\\
+\tabitem Music: & \tabsubitem \gitsite{https://youtu.be/KTkxVKzovOE}\\
  & \tabsubitem \gitsite{https://youtu.be/yZxXxMNTo\_Y}\\
-\tabitem Danses latines : & ~~~~Salsa, bachata, etc. \\
-\tabitem Sports :  & \tabsubitem Volleyball \\
- & \tabsubitem Ping--pong \\
- & \tabsubitem Plongée \\
- & \tabsubitem Musculation\\
-\tabitem Loisir : & ~~~~Randonnée à cheval
+\tabitem Latin dance: & ~~~~Salsa, bachata, etc. \\
+\tabitem Sports:  & \tabsubitem Volleyball \\
+ & \tabsubitem Table tennis \\
+ & \tabsubitem Diving \\
+ & \tabsubitem Body-building\\
+\tabitem Spare time: & ~~~~Horseback riding
 \end{tabular}
 }
 {}{}{}{}
