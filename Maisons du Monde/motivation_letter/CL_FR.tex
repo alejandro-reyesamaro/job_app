@@ -1,0 +1,216 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Formal Letter
+% LaTeX Template
+% Version 1.0 (28/12/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Brian Moses (http://www.ms.uky.edu/~math/Resources/Templates/LaTeX/)
+% with extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{letter} % Specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+\usepackage{graphicx} % Required for including pictures
+\usepackage{microtype} % Improves typography
+\usepackage{gfsdidot} % Use the GFS Didot font: http://www.tug.dk/FontCatalogue/gfsdidot/
+\usepackage[T1]{fontenc} % Required for accented characters
+\usepackage{wasysym}
+\usepackage{marvosym}
+\usepackage{ifsym}
+%\usepackage[misc,geometry]{ifsym}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} % load a font with all the characters
+
+
+% Create a new command for the horizontal rule in the document which allows thickness specification
+\makeatletter
+\def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+
+% classical \today definition FR
+\def\today{\number\day\space\ifcase\month\or
+  Janvier\or Février\or Mars\or Avril\or Mai\or Juin\or
+  Juillet\or Août\or Septembre\or Octobre\or Novembre\or Décembre\fi
+  \space\number\year}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS
+%----------------------------------------------------------------------------------------
+
+\textwidth 6.75in
+\textheight 10in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\topmargin -1.2in
+\longindentation 0.50\textwidth
+\parindent 0.3in
+
+%----------------------------------------------------------------------------------------
+%	SENDER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\def\Who{Alejandro REYES-AMARO} % Your name
+\def\What{, PhD} % Your title
+\def\Where{{\bf Laboratoire de Sciences du \\ Numeriques de Nantes}} % Your department/institution
+\def\Address{\textifsymbol{18} 3 rue Docteur Zamenhof} % Your address
+\def\CityZip{\hbox{} \hspace{4pt} 44200 Nantes, France} % Your city, zip code, country, etc
+\def\Email{\Letter \hspace{0.1cm} alejandro.reyes@univ-nantes.fr} % Your email address
+\def\TEL{\phone \hspace{0.1cm} (+33) 251-840861} % Your phone number
+\def\MOBILE{\Mobilefone \hspace{0.1cm} (+33) 666-372524}
+\def\URL{} % Your URL
+
+%----------------------------------------------------------------------------------------
+%	HEADER AND FROM ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+
+\address{
+\hspace{-1in}
+\includegraphics[width=0.8in]{logo.jpg} % Include the logo of your institution
+\hspace{5.1in} % Position of the institution logo, increase to move left, decrease to move right
+\vskip -0.9in~\\ % Position of the text in relation to the institution logo, increase to move down, decrease to move up
+\Large\hspace{1in}{\sc Universit\'{e}} \hfill ~\\[0.05in] % First line of institution name, adjust hspace if your logo is wide
+\hspace{1in}{\sc de Nantes} \hfill \normalsize % Second line of institution name, adjust hspace if your logo is wide
+\makebox[0ex][r]{\bf \Who \What }\hspace{0.08in} % Print your name and title with a little whitespace to the right
+~\\[-0.11in] % Reduce the whitespace above the horizontal rule
+\hspace{1in}\vhrulefill{1pt} \\ % Horizontal rule, adjust hspace if your logo is wide and \vhrulefill for the thickness of the rule
+\hspace{\fill}\parbox[t]{4in}{ % Create a box for your details underneath the horizontal rule on the right
+\footnotesize % Use a smaller font size for the details
+%\Who \\ \em % Your name, all text after this will be italicized
+\em
+%\Where\\ % Your department
+\Address\\ % Your address
+\CityZip\\ % Your city and zip code
+\TEL\\ % Your phone number
+\MOBILE\\
+\Email\\ % Your email address
+%\URL % Your URL
+}
+\hspace{-2.15in} % Horizontal position of this block, increase to move left, decrease to move right
+\vspace{-1in} % Move the letter content up for a more compact look
+}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+%\longindentation
+\def\opening#1{\thispagestyle{empty}
+{\centering\fromaddress \vspace{0.6in} \\ % Print the header and from address here, add whitespace to move date down
+\hspace{6cm}\today\hspace*{\fill}\par} % Print today's date, remove \today to not display it
+{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+\vspace{0.4in} % White space after the to address
+\noindent #1 % Print the opening line
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+}
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE STRUCTURE
+%----------------------------------------------------------------------------------------
+
+\signature{{\bf \Who} } %\What} % The signature is a combination of your name and title
+
+\long\def\closing#1{
+%\vspace{0.1in} % Some whitespace after the letter content and before the signature
+\noindent % Stop paragraph indentation
+\hspace*{\longindentation} % Move the signature right
+\parbox{\indentedwidth}{\raggedright
+#1 % Print the signature text
+%\vskip 0.1in % Whitespace between the signature text and your name
+\includegraphics[height=4\baselineskip]{pictures/sign}\\
+\fromsig}
+%\vspace{40pt}
+%%\begin{center}
+%%\textcolor{gray}{\textit{ {\fontfamily{ppl}\selectfont Ci-joint : curriculum vitæ.}}}
+%%\end{center}
+} % Print your name and title
+
+
+%\signature{{\bf \Who} } %\What} % The signature is a combination of your name and title
+%
+%\long\def\closing#1{
+%\vspace{0.1in} % Some whitespace after the letter content and before the signature
+%\noindent % Stop paragraph indentation
+%\hspace*{\longindentation} % Move the signature right
+%\parbox{\indentedwidth}{\raggedright
+%#1 % Print the signature text
+%%\vskip 0.1in % Whitespace between the signature text and your name
+%\includegraphics[height=4.5\baselineskip]{pictures/sign}\\
+%\fromsig}} % Print your name and title
+
+%----------------------------------------------------------------------------------------
+\usepackage{color}
+
+\definecolor{naranja}{RGB}{241,70,34}
+\definecolor{verde}{RGB}{104,198,135}
+\definecolor{dred}{RGB}{120,7,7}
+\definecolor{darkgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{orange}{RGB}{241,70,34}
+\definecolor{gray}{RGB}{135,131,131}
+\definecolor{intenso}{RGB}{126,13,13}
+\definecolor{shadecolor}{RGB}{215,215,215}
+\newcommand{\tet}[1]{\textcolor{naranja}{#1}}
+
+\newcommand{\poste}{Développeur H/F}
+\newcommand{\where}{publié sur le site web OuestJob :~}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}
+{{\bf Maisons du Monde}\\Nantes, France\\
+\vspace{0.2in}
+\textbf{Objet :} Candidature au poste \textit{\poste}.
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Madame, Monsieur,}
+
+Je vous écris concernant l'offre d'emploi \where 
+\textbf{\poste}. 
+J'occupe actuellement le poste d'Attaché Temporaire d'Enseignement et de Recherche (ATER) dans le Laboratoire de Sciences du Numérique de l'Université de Nantes (LS2N). Je viens de soutenir ma thèse de doctorat et je souhaite continuer ma vie professionnelle dans un contexte orienté développement logicielles.
+
+Au cours de mon doctorat, j'ai con\c cu et implémenté un framework de haut niveau pour la création de solveurs de problèmes combinatoires en parallèle, en C++, langage que j'ai aussi enseigné pendant ce temps, et que j'enseigne encore actuellement. 
+Avant ma thèse, mon expérience m'a amené principalement à utiliser les technologies .NET et le langage C\#. En revanche, j'ai utilisé le langage JAVA pour toutes mes formations entant que développeur.
+
+J'ai fait partie de plusieurs groupes de développement et de recherche pour la création de logiciels. En tant que développeur \textit{freelance}, j'ai aussi crée et dirigé des projets de développement (\textit{front--end} et/ou \textit{back--end}), étant en charge de toutes les étapes des projets, y compris la rédaction détaillée des spécifications fonctionnelles et techniques.
+%ainsi que tests de fonctionnalité et validation. 
+Dans mon CV je résume les caractéristiques de \textit{Neurohipot} et \textit{POSL}, des logiciels que j'ai conçu et développé. Notamment, un des projets dans \textit{SCG} à été la conception et développement, de toutes pièces, d'un site web pour l'évaluation des niveaux de responsabilité sociale des petites entreprises au Costa Rica, où j'ai aussi élaboré le dessin web.
+La plupart de ces projets présentent une couche de données (\textit{data layer}) basée sur du SQL Server ou Microsoft Access Data Base, et la \textit{data access layer} a été programmée en utilisant la technologie ASP.NET.
+
+%Il est à noter qu'en tant qu'enseignant aux Universités de la Havane et de Nantes, j'ai enseigné pendant des années les langages C/C++/C\#, ainsi 
+%que différents \textit{design patterns}.
+%que la technologie \textit{Message Passing Interface}.
+
+Votre offre d'emploi est une grande opportunité d'appliquer toutes mes connaissances et mon expérience de développeur. J'y vois aussi l'occasion d'évoluer dans ma carrière professionnelle au sein de votre entreprise. Je suis convaincu que mon expérience et ma formation comme développeur dans diverses entreprises, ainsi que mes années de travail en équipe dans plusieurs postes de recherche de plusieurs universités, et mon expérience de direction des projets de développement, peuvent influencer positivement votre entreprise. 
+
+%Les années de travail dans ces milieux, m'ont doté d'un sens de responsabilité, et ont fait de moi une personne travailleur, avec des aptitudes pour programmer, apprendre et générer des solutions efficacement. 
+
+En espérant pouvoir vous exprimer ma motivation dans le cadre d'un entretien, je vous prie de croire %, Madame, Monsieur, 
+à l'expression de mes salutations distinguées.
+
+\closing{Bien cordialement,}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+\end{document}
