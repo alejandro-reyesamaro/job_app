@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  23 APR 2017 18:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.20)  24 APR 2017 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,13 +956,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6113 strings out of 494272
- 89271 string characters out of 6160999
- 158783 words of memory out of 5000000
+ 6117 strings out of 494272
+ 89311 string characters out of 6160999
+ 158782 words of memory out of 5000000
  9179 multiletter control sequences out of 15000+600000
- 47090 words of font info for 77 fonts, out of 8000000 for 9000
+ 47256 words of font info for 79 fonts, out of 8000000 for 9000
  443 hyphenation exceptions out of 8191
- 38i,6n,35p,581b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,35p,580b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} </home/reyesamaro-a/.texmf-va
 r/fonts/pk/ljfour/public/ifsym/ifsymi10.540pk></usr/share/texmf/fonts/type1/pub
 lic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/sha
@@ -970,7 +970,7 @@ re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/wasy/wasy9.pfb>
-Output written on CL_FR.pdf (1 page, 356454 bytes).
+Output written on CL_FR.pdf (1 page, 356371 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

@@ -1,0 +1,27 @@
+A propos de notre client
+
+
+
+Une société de services et ingénierie informatique
+
+
+Description du poste & profil recherché
+
+
+
+Au titre de développeur .Net vous serez amené(e) à gérer des micros projets.
+
+Vous réalisez les développements, la documentation et rendez compte de leur avancement. Vous ne disposez pas forcément de documentation ou spécialisation de fait avant 
+les développements, vous aurez donc à faire preuve d'adaptabilité.
+
+Vous participez à la mise en production sur site des applications, vous êtes impliqué(e) dans leur suivi via des outils de télémaintenance et par une relation directe 
+avec les clients.
+
+Détails des missions et des compétences
+
+
+Ayant une expérience minimum de 4 ans sur le même poste, de formation supérieure ( école d'ingénieur ou d'informatique, ) vous êtes à l’aise avec les codes et la programmation 
+orientée objet ( C#, VB, Java/JEE, C++...) avec une préférence pour les langages .NET.
+
+Vous êtes familiarisé(e) avec les bases de données et leurs outils de gestion. Ouvert(e) d’esprit, autonome, rigoureux(se), force de proposition, vous aimez et savez aussi 
+communiquer/partager avec vos collègues.

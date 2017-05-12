@@ -1,0 +1,27 @@
+Job description
+Poste :
+
+Au sein d’une équipe projet, vous avez la responsabilité de développer et d’intégrer des applications dans divers projets mobiles innovants. 
+Vous travaillez sur différentes technologies et secteurs d’activité variés.
+
+Vos missions :
+
+intervenir dans les différentes phases des projets (analyse et conception, développement, tests/recette, livraison).
+développer des interfaces dédiées aux terminaux mobiles du type Iphone ou Windows Embedded ainsi que des interfaces utilisateurs web à l’usage du back office (navigateur classique).
+veiller à la compatibilité du développement avec les principaux navigateurs IE, Firefox, Chrome, Safari et Opéra.
+développer des interfaces dynamiques et ergonomiques à l’aide de technologies ASP.NET MVC, Javascript, Ajax.
+effectuer la maintenance et l'évolution de vos applications.
+Profil:
+
+Ingénieur ou formation équivalente en informatique.
+Expérience de 3 ans minimum en développement .Net et C#
+Curieux, autonome, impliqué et passionné par les nouvelles technologies.
+Compétences techniques requises :
+
+Langages : C# .NET
+
+Bases de données : SQL Server, Oracle
+
+Outils : Visual Studio
+
+Expérience de développement mobile est un plus.

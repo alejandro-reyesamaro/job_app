@@ -1,0 +1,30 @@
+À propos de cette offre
+
+Éditeur spécialisé dans la finance de marché, nous sommes présents à Chicago, New York, Londres, Paris et Singapour. Dédiée aux banques d'investissement à la recherche de 
+faible latence, aux desks de trading propriétaire, aux market markers et aux hedgefunds, notre offre comprend des outils d'ultra-faible latence pour l'accès aux données de 
+marché et une infrastructure combinant fibre optique propriétaire et "proximityhosting". 
+ 
+Avec de nombreux projets pour développer notre activité et proposer de nouvelles offres, le fort développement technologique et fonctionnel de nos produits, l'engagement de
+nos équipes pour la réussite du projet d'entreprise, les perspectives 2017 sont enthousiasmantes !
+ 
+En particulier, nous implantons un nouveau centre de Recherche et Développement ) Nantes et y créons plusieurs postes :
+ 
+INGÉNIEUR DÉVELOPPEMENT C++ MULTITHREAD h/f
+Systèmes et applications de marchés électroniques 
+ 
+Dans le cadre de la réalisation de nouveaux produits, vous participerez au développement de nos solutions très performantes d’accès aux données de marché. En particulier, 
+vous aurez la responsabilité de la conception et du développement en C++ de nouveaux serveurs de décodage de flux boursiers (FeedHandler) jusqu’à la rédaction de procédures 
+de mise en production. Vous prendrez également en charge la maintenance et l’évolution de FeedHandlers existants.
+ 
+En développant votre expertise de nos outils et vos connaissances fonctionnelles des données financières, vous interviendrez progressivement sur différents types de FeedHandlers 
+(Forex, Fixed Income / multicast, TCP, FAST, etc.), vous gérerez des migrations de marché complexes et effectuerez un support second niveau.
+Sensible aux méthodes de développement agiles, vous serez attentif à la qualité et à la performance du code que vous validerez par des tests réguliers. 
+
+Après une première expérience en programmation C++ multithread,  vous savez travailler de manière autonome et avec une grande rigueur, notamment au niveau des plannings de 
+développement et de la qualité. Vous avez en particulier déjà travaillé sur des problématiques de haute performance, de programmation parallèle, d’optimisation et de volumétrie. 
+Votre bon niveau d’anglais et votre relationnel seront sollicités pour les échanges avec les équipes techniques des bourses internationales et nos équipes internes.
+Techniquement, le langage est C++ sous Unix/Linux. La connaissance de langages de script (Bash,, Python, …) sera utilisée.Des connaissances dans le domaine de la finance de marché 
+(bourses) sont un plus.
+
+Vous souhaitez intégrer un environnement complexe qui vous permette de vous dépasser et favorise la double compétence fonctionnelle et technique ?
+Adressez-nous votre dossier de candidature !

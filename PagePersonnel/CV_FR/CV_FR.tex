@@ -1,0 +1,269 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+%\usepackage[latin1]{inputenc}
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[latin1]{inputenc}   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Alejandro\\REYES AMARO}
+\familyname{} %{REYES AMARO} %{Reyes Amaro}
+\title{Curriculum Vitae}
+\address{3 rue Docteur Zamenhof}{44200 Nantes}
+\mobile{(+33)666-372524}
+\phone{(+33)251-840861}
+%\fax{fax (optional)}
+\email{alejandro.reyes@univ-nantes.fr}
+%\homepage{homepage ()}
+%\extrainfo{Place and Date of Birth: \\La Habana, Cuba $|$ March 4, 1982}
+\photo[64pt]{moi} % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Mise à jour \today}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\newcommand{\mc}{Mots clés}
+\newcommand{\gt}{Sujets}
+\newcommand{\rt}{Sujet de recherche}
+\newcommand{\uh}{Universit\'{e} de la Havane}
+\newcommand{\uib}{Université des Iles Baléares}
+\newcommand{\un}{Universit\'e de Nantes}
+\newcommand{\lina}{Laboratoire d'Informatique de Nantes Atlantique (LINA)}
+\newcommand{\lsn}{Laboratoire des Sciences du Num\'erique de Nantes (LS2N)}
+\newcommand{\facHab}{Faculté de Mathématiques et d'Informatique. \uh, Cuba}
+\newcommand{\depthHab}{Département de Mathématiques Appliquées, \facHab}
+\newcommand{\depthNantes}{Département d'Informatique}
+\newcommand{\facNantes}{UFR Sciences et techniques, \un, France}
+%\renewcommand{\thebibliography}{Publicaciones}
+\makeatother
+
+\newcounter{rtaskno}
+\newcommand{\rtask}{%
+   \stepcounter{rtaskno}%
+   \thertaskno}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Articulos},{Registros de Software}}
+
+\definecolor{naranja}{RGB}{241,70,34}
+\definecolor{verde}{RGB}{104,198,135}
+\definecolor{dred}{RGB}{120,7,7}
+\definecolor{darkgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{orange}{RGB}{241,70,34}
+\definecolor{gray}{RGB}{135,131,131}
+\definecolor{intenso}{RGB}{126,13,13}
+\definecolor{shadecolor}{RGB}{215,215,215}
+
+\newcommand{\closecode}{\textcolor{blue}{(code pas ouvert)}}
+\newcommand{\gitsite}[1]{\textcolor{blue}{\href{url}{#1}}}
+
+\addtolength{\textheight}{1in}
+\addtolength{\topmargin}{-.4in}
+\addtolength{\oddsidemargin}{-.2in}
+\addtolength{\evensidemargin}{-.2in}
+\addtolength{\textwidth}{.4in}
+
+\newcommand{\tet}[1]{\textcolor{naranja}{#1}}
+\nopagenumbers{}
+
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{tikz}
+%\newcommand{\tabsubitem}{~~~~\llap{\tikz\draw[black,fill=red] (0,0) circle (.4ex);}~~}
+\newcommand{\tabsubitem}{~~~~~\llap{\tikz\draw[black] (0,0) circle (.4ex);}~~}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%attaché temporaire d'enseignement et de recherche
+
+\section{Statut actuel}
+\cventry
+	{2016 - jusqu'à présent}
+	{Attaché Temporaire d'Enseignement et de Recherche}{\depthNantes, \lsn}{}	
+	{}{\un} %{Nantes, France.}	
+	
+\section{Expérience}
+
+%\subsection{Développement de logiciels}
+\cventry
+	{2013 - 2016}
+	{Doctorant} %POSL: Un langage orienté parallèle pour construire des solveurs basés sur méta-heuristiques}
+	{LN2N (Inria)}
+	{}{}
+	{Porteur d'un projet de recherche de trois ans. %, avec l'encadrement de deux étudiants de master. 
+	Création de \textit{POSL}, un langage de haut niveau orienté \textbf{parallèle} qui permet de construire des solveurs basés sur méta-heuristiques, pour résoudre des problèmes combinatoires.\\
+	\gitsite{https://github.com/alejandro-reyesamaro/POSL}\\
+	28 583 lignes de code en C++ (MPI, multi-threading)}
+\cventry
+	{2010 - 2013}
+	{Instructeur - chercheur} %{Jeux sérieux pour la rééducation physique}
+	{\uh{} - \uib}
+	{}{}
+	{Membre d'une équipe de recherche porteur de plusieurs projets MAEC-AECID (A/023109/09, A/030033/10 et A2/037538/11) pour proposer des jeux sérieux par ordinateur capables de capter les mouvements des patients avec des handicaps physiques et évaluer l'avancement de la rééducation physique.\\
+	\gitsite{https://github.com/alejandro-reyesamaro/iKinematic\_arm}\\
+	38 768 lignes de code en C\# et 4 062 lignes de code en MATLAB}
+\cventry
+	{2006 - 2011}
+	{Freelance} %{Système de gestion de réserves online}
+	{}
+	{}{}%{[C$\sharp$, LinQ, WCF, Microsoft SQL Server]}
+	{
+		\begin{itemize}
+		\item Mise à jour du \textit{data layer} et du \textit{data access layer} du système de gestion de réserves en ligne du site web de l'agence de voyages \textit{Umbrella Travel} (\gitsite{https://www.umbrellatravel.com/}).
+		\item[] \closecode
+		\item[] 2 343 lignes de code en C\# (LinQ, ASP.NET)
+		\item Chef d'équipe de \textit{freelances} pour la création de :
+			\begin{itemize}		
+			\item \textit{Neurohipot} : un système qui permet d'évaluer la capacité d'attention et la mémoire à court terme des personnes âgées, pour aider au diagnostic de la démence sénile pour l'Hôpital Universitaire Gregorio Mara\~n\'on, Espagne.
+			\item[] \gitsite{https://github.com/alejandro-reyesamaro/Neurohipot}
+			\item[] 29 421 lignes de code en C\# (Microsoft Access Data Base)
+			\item Site d'achat en ligne de produits cubains depuis l'étranger.
+			\item[] \gitsite{https://github.com/alejandro-reyesamaro/vSotre\_cuba}
+			\item[] 47 330 lignes de code en C\# (SQL Server, ASP.NET)
+			\end{itemize}	
+		\end{itemize}
+	}
+\cventry
+	{2008 - 2010}
+	{IT Developer}
+	{Software \& Consulting Group}
+	{}{} %[C$\sharp$, Web Development, Microsoft SQL Server]}
+	{
+		Membre d'une équipe de développeurs chargés de la création de :
+		\begin{itemize}
+		\item Un site web pour l'évaluation des niveaux de responsabilité sociale des petites entreprises du Costa Rica (dessin web compris).
+		\item[] \closecode
+		\item[] 89 193 lignes de code en C\# (SQL Server, ASP.NET)
+		\item Un \textit{plugin} (pour le \textit{back--end} du système principal) pour la gestion des services internes de l'entreprise.
+		\item[] \closecode
+		\item[] 5 165 lignes de code C\# (Microsoft Access Data Base)
+		\end{itemize}
+	}
+%\cventry
+%	{2006 - 2008}
+%	{Neurohipot v1.0: }
+%	{\uh. Hôpital universitaire Gregorio Mara\~n\'on, Espagne}
+%	{}{[C$\sharp$, Microsoft Access Database]}
+%	{Un système }
+
+%\subsection{Recherche}
+%\cventry
+%	{2013 - jusqu'à présent}
+%	{Membre de l'équipe Inria-TASC}
+%	{\lsn{}, \un}
+%	{}{}{\underline{\rt}: Technologie multi-c\oe{}ur, architectures massivement parallèles, optimisation combinatoire, programmation par contraintes, recherche locale.}
+%%\cventry
+%%	{2013 - 2014}
+%%	{Projet Ulysses}
+%%	{\lina, Université de Nantes - Université de Cork, Irlande}
+%%	{}{}{Technologie multi-c\oe{}ur, architectures massivement parallèles, recherche locale.}
+%\cventry
+%	{2010 - 2012}
+%	{Projet MAEC-AECID (A/023109/09, A/030033/10 et A2/037538/11)}
+%	{\uh{} - \uib}
+%	{}{}{\underline{\rt}: E-inclusion, vision par ordinateur, OpenNI, Kinet.}
+%%\cventry
+%%	{2010 - 2013}
+%%	{Membre de l'équipe de recherche de Vision par Ordinateur}
+%%	{\depthHab}
+%%	{}{}{\underline{\rt}: Vision par ordinateur, cinématique inverse, filtres de particules (Point Cloud Library (PCL), OpenNI, Kinet).}
+%\cventry
+%	{2006 - 2013}
+%	{Membre de l'équipe de recherche d'Analyse Numérique}
+%	{\uh}
+%	{}{}{\underline{\rt}: Programmation non--linéaire, approximation des fonctions, équations différentielles \& algèbre linéaire numérique.}
+
+\section{Études}
+\cventry
+	{2013 - 2016}
+	{Docteur en Informatique}
+	{\facNantes}{}{}
+	{\underline{\mc}: Problèmes de satisfaction de contraintes, méta-heuristiques, parallélisme, stratégies de communication.}
+\cventry
+	{2007 - 2011}
+	{Master en Sciences Mathématiques. Analyse Numérique}
+	{\facHab}{}{}
+	{\underline{\mc}: Cinématique inverse, recherche de chemin, détection de collision, filtre de \mbox{particules}}
+\cventry
+	{2001 - 2006}
+	{Licence en Informatique}
+	{\facHab}{}{}
+	{\underline{\mc}: Méthodes primal--dual infaisable, point intérieur, programmation linéaire, \mbox{problèmes} à grande échelle.}
+			
+\section{Compétences informatiques}
+\subsection{Langages de programmation}
+\cvmyentry
+{}
+{C/C++/C\#, Java/Javascript, MATLAB, R}{}{}{}{}
+\subsection{Web et basses de données}
+\cvmyentry
+{}
+{ASP.NET, HTML/CSS, SQL Server, Microsoft Access Database, LinQ, WCF}{}{}{}{}
+\subsection{Systèmes de contrôle de version}
+\cvmyentry
+{}
+{Utilisateur intermédiaire de Git}{}{}{}{}
+\subsection{Méthode Agile}
+\cvmyentry
+{}
+{Utilisateur débutant de Scrum}{}{}{}{}
+\subsection{Autres compétences informatiques et mathématiques}
+\cvmyentry
+{}
+{\begin{tabular}{ll}
+\tabitem Système d'exploitation : & \tabitem Virtualisation :\\
+\tabsubitem Linux & \tabsubitem VirtualBox\\
+\tabsubitem Windows & \tabsubitem VMwarre \\
+\tabitem Éditeur de texte : \hspace{40pt} & \tabitem IDE :\\
+\tabsubitem \LaTeX & \tabsubitem Visual Studio .NET\\
+\tabsubitem Microsoft Office & \tabsubitem Qt Creator\\ 
+\tabitem Technologie multi-c\oe{}ur & \tabsubitem Eclipse\\
+%\tabitem Caméras Kinet & \tabitem Vision par ordinateur \\
+\end{tabular}
+}
+{}{}{}{}
+
+\section{Langues \small{(Common European Framework of Reference (CEF))}}
+\cvlanguage{$\star\star\star\star\star$}{Espagnol}
+{Langue maternelle}
+\cvlanguage{$\star\star\star\star$}{Anglais}
+{Écoute: C1, Lecture: C1, Oral: C1, Écriture: C1}
+\cvlanguage{$\star\star\star\star$}{Français}
+{Écoute: C1, Lecture: C1, Oral: C1, Écriture: C1}
+
+\section{Centres d'intérêt}
+\cvmyentry
+{}
+{\begin{tabular}{ll}
+\tabitem Musique : & \tabsubitem \gitsite{https://youtu.be/KTkxVKzovOE}\\
+ & \tabsubitem \gitsite{https://youtu.be/yZxXxMNTo\_Y}\\
+\tabitem Danses latines : & ~~~~Salsa, bachata, etc. \\
+\tabitem Sports :  & \tabsubitem Volleyball \\
+ %& \tabsubitem Ping--pong \\
+ %& \tabsubitem Plongée \\
+ & \tabsubitem Musculation\\
+\tabitem Loisir : & ~~~~Randonnée à cheval
+\end{tabular}
+}
+{}{}{}{}
+
+%\cventry{}{Musique}{}{}{}{\gitsite{https://youtu.be/KTkxVKzovOE}\\ \gitsite{https://youtu.be/yZxXxMNTo\_Y}}
+%\cventry{}{Danses latines}{(salsa, bachata, etc.)}{}{}{}
+%\cventry{}{Plongée}{}{}{}{}
+%\cventry{}{Randonnée à cheval}{}{}{}{}
+
+\end{document}
